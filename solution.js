@@ -129,4 +129,5 @@ document.querySelector('#confirm-reservation').addEventListener('click', (e) => 
 function showThanksPage(e) {
     e.preventDefault();
     changeContent('thank-you-content');
+    console.log(e.target.textContent);
 }
